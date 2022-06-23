@@ -10,37 +10,6 @@ import {
 } from './action/action';
 
 const initialstate = {};
-// profile_screen: {
-//   firstName: 'Umang',
-//   lastName: '',
-//   dateofbirth: '',
-//   gender: '',
-//   mobileNo: '',
-// },
-// address_screen: {
-//   house: 0,
-//   landmark: '',
-//   area: '',
-//   city: '',
-//   pincode: 0,
-//   // opencity: '',
-// },
-// qualification_screen: {
-//   school10th: '',
-//   school12th: '',
-//   collage: '',
-//   percentage: '',
-//   check10: false,
-//   check12: false,
-//   checkC: false,
-// },
-// redistration_screen: {
-//   nickname: '',
-//   email: '',
-//   password: '',
-//   confirmpassword: '',
-// },
-// };
 
 export const MainReducer = (state = initialstate, action) => {
   switch (action.type) {
