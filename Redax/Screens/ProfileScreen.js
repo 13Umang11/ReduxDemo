@@ -8,6 +8,7 @@ import {
   ScrollView,
   Keyboard,
   Pressable,
+  StatusBar,
 } from 'react-native';
 import Header from '../customcomponent/Header';
 import DateTimePickerModal from 'react-native-modal-datetime-picker';
